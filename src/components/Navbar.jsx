@@ -13,7 +13,7 @@ const Navbar = () => {
       <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
         Top <span className="font-bold">Eats</span>
       </h1>
-      <div className="flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
+      <div className="md:flex items-center bg-gray-200 rounded-full p-1 text-[14px] hidden md:visible">
         <p className="bg-black text-white rounded-full p-2">Delivery</p>
         <p className="p-2"> PickUp</p>
       </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
      <div className={nav ? "fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300": "fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300"}>
      <X size={25} onClick={()=> setnav(!nav)} className="absolute right-4 top-4 cursor-pointer"/>
      
-     <h2 className="text-2xl p-4">Top<span className="font-bold">Eats</span></h2>
+     <h2 className="text-2xl p-4">Top <span className="font-bold">Eats</span></h2>
      
      <nav>
      <ul className="flex flex-col p-4 text-gray-800">
