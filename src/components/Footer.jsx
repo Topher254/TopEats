@@ -18,7 +18,7 @@ const Footer = () => {
         Top <span className="font-bold">Eats</span>
       </h2>
       <div className="grid md:grid-cols-4 gap-4 mx-auto items-center">
-        <div className="bg-gray-100 py-6 rounded-xl ">
+        <div className="bg-gray-100 py-2 rounded-xl ">
           <h2 className="text-xl text-orange-600 pb-2">About Us</h2>
           <p>
             Welcome to Top Eats, your ultimate destination for delicious food
@@ -36,7 +36,7 @@ const Footer = () => {
             <li className="hover:text-orange-500 hover:cursor-pointer">Burgers</li>
           </ul>
         </div>
-        <div className="bg-gray-100 py-6 rounded-xl ">
+        <div className="bg-gray-100 py-2 rounded-xl ">
           <h2 className="text-orange-600 pb-2">Contact Us</h2>
           <ul>
             <li className="flex items-center  hover:cursor-pointer">
@@ -54,7 +54,7 @@ const Footer = () => {
             
           </ul>
         </div>
-        <div className="bg-gray-100 py-6 rounded-xl ">
+        <div className="bg-gray-100 py-2 rounded-xl ">
           <h2 className="text-orange-600 pb-2">Social Media</h2>
           <ul>
             <li>
